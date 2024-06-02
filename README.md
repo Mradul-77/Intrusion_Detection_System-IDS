@@ -32,3 +32,9 @@ It contains the information about the IPs that can be malicious or potentially h
 ### SYS_INFO:
 It doesn't have any important role in the project. It just contains information about the user's(server) PC/device and its configuration, for future use.
 
+## Role of the Analyzer modules:
+The most important job of the Analyzer Script is to create the PROALERT and IPALERT files.
+The <I> PROALERT file contains information about the malicious processes, their process-id, their danger level and where to find it in the PROINFO file for more information.
+The <I> IPALERT file contains information about the unsafe sites and computers to which the client is connected to. It contains the remote-ip, remote-port and process-id of the processes which are connected to these sites and also where to find them in the NETINFO file.
+The user on the server side can now use this information to figure out whether or not the client’s system may be compromised and then take the necessary actions. 
+
