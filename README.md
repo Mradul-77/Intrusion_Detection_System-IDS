@@ -34,8 +34,8 @@ It doesn't have any important role in the project. It just contains information 
 
 ## Role of the Analyzer modules:
 The most important job of the Analyzer Script is to create the PROALERT and IPALERT files.
-The PROALERT<I><B> file contains information about the malicious processes, their process-id, their danger level and where to find it in the PROINFO file for more information.
-The IPALERT<I><B> file contains information about the unsafe sites and computers to which the client is connected to. It contains the remote-ip, remote-port and process-id of the processes which are connected to these sites and also where to find them in the NETINFO file.
+The <I><B>PROALERT</I></B> file contains information about the malicious processes, their process-id, their danger level and where to find it in the PROINFO file for more information.
+The <I><B>IPALERT</I></B> file contains information about the unsafe sites and computers to which the client is connected to. It contains the remote-ip, remote-port and process-id of the processes which are connected to these sites and also where to find them in the NETINFO file.
 The user on the server side can now use this information to figure out whether or not the client’s system may be compromised and then take the necessary actions. 
 
 ## How to run the project:
